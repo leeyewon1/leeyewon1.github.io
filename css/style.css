@@ -615,9 +615,36 @@ body {
 
 /*portfolio04  */
 
+
 .portfolio04 .bg {
   left: auto;
   right: 0;
+}
+
+.portfolio04 .line03 {
+  position: relative;
+}
+.portfolio04 .line03 li {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio04 .line03 li:nth-child(1) {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 110%;
+  height: 1px;
+}
+
+.portfolio04 .line03 li:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: -90px;
+  width: 20px;
+  height: 20px;
+  transform: translate(0, -50%);
+  border-radius: 50%;
+  background: tomato;
 }
 
 .portfolio04 .bg span {
