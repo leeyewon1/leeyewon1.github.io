@@ -23,7 +23,7 @@ $(function () {
     })
 
     $('#content').fullpage({
-        anchors : ['intro', 'portfolio01','portfolio02','portfolio03','portfolio04','portfolio05',],
+        anchors : ['intro', 'portfolio01','portfolio02','portfolio03','portfolio04','portfolio05','training','info',],
         scrollOverflow: false,
         afterRender: function () {
             mainVisualTimeline();

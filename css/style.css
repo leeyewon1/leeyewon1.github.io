@@ -93,8 +93,6 @@ body {
   object-fit: cover;
 }
 
-
-
 .gnb {
   filter: url("#bbq");
   position: fixed;
@@ -162,6 +160,15 @@ body {
 .gnb.on .gnb_li:nth-child(5) {
   top: 300px;
 }
+.gnb.on .gnb_li:nth-child(6) {
+  top: 360px;
+}
+.gnb.on .gnb_li:nth-child(7) {
+  top: 420px;
+}
+/* .gnb.on .gnb_li:nth-child(8) {
+  top: 480px;
+} */
 
 /* --- */
 
@@ -487,21 +494,21 @@ body {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background:#dbc9b5 ;
+  background: #dbc9b5;
   border-radius: 50%;
 }
 .portfolio .desc_table td .col01 {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background:#613d3d ;
+  background: #613d3d;
   border-radius: 50%;
 }
 .portfolio .desc_table td .col02 {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background: #fff ;
+  background: #fff;
   border-radius: 50%;
   border: 1px solid #e7e7e7;
 }
@@ -536,7 +543,6 @@ body {
   height: 40px;
   /* border-top: 1px solid #fff; */
 }
-
 
 .portfolio .mockup .box {
   width: 320px;
@@ -608,21 +614,21 @@ body {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background:#00664f ;
+  background: #00664f;
   border-radius: 50%;
 }
 .portfolio02 .desc_table td .col01 {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background:#ddd ;
+  background: #ddd;
   border-radius: 50%;
 }
 .portfolio02 .desc_table td .col02 {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background: #fff ;
+  background: #fff;
   border-radius: 50%;
   border: 1px solid #e7e7e7;
 }
@@ -665,28 +671,26 @@ body {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background:#81d8d0 ;
+  background: #81d8d0;
   border-radius: 50%;
 }
 .portfolio03 .desc_table td .col01 {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background:#ddd ;
+  background: #ddd;
   border-radius: 50%;
 }
 .portfolio03 .desc_table td .col02 {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background: #fff ;
+  background: #fff;
   border-radius: 50%;
   border: 1px solid #e7e7e7;
 }
 
-
 /*portfolio04  */
-
 
 .portfolio04 .bg {
   left: auto;
@@ -746,21 +750,21 @@ body {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background:#202124 ;
+  background: #202124;
   border-radius: 50%;
 }
 .portfolio04 .desc_table td .col01 {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background:#dab49d ;
+  background: #dab49d;
   border-radius: 50%;
 }
 .portfolio04 .desc_table td .col02 {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background: #fff ;
+  background: #fff;
   border-radius: 50%;
   border: 1px solid #e7e7e7;
 }
@@ -803,7 +807,7 @@ body {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background:#000 ;
+  background: #000;
   border-radius: 50%;
 }
 
@@ -811,7 +815,7 @@ body {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background: #fff ;
+  background: #fff;
   border-radius: 50%;
   border: 1px solid #e7e7e7;
 }
