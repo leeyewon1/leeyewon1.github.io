@@ -81,17 +81,19 @@ body {
   height: 200px;
 }
 
-.line li:nth-child(5) img {
+/* .line li:nth-child(5) img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-}
+} */
 
 .line li:nth-child(5) video {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
+
+
 
 .gnb {
   filter: url("#bbq");
@@ -481,6 +483,29 @@ body {
   height: 40px;
 }
 
+.portfolio .desc_table td span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background:#dbc9b5 ;
+  border-radius: 50%;
+}
+.portfolio .desc_table td .col01 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background:#613d3d ;
+  border-radius: 50%;
+}
+.portfolio .desc_table td .col02 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #fff ;
+  border-radius: 50%;
+  border: 1px solid #e7e7e7;
+}
+
 /* color 바꾸기 */
 
 /* .blind {
@@ -579,6 +604,29 @@ body {
   background: tomato;
 }
 
+.portfolio02 .desc_table td span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background:#00664f ;
+  border-radius: 50%;
+}
+.portfolio02 .desc_table td .col01 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background:#ddd ;
+  border-radius: 50%;
+}
+.portfolio02 .desc_table td .col02 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #fff ;
+  border-radius: 50%;
+  border: 1px solid #e7e7e7;
+}
+
 /* portfolio03 */
 
 .portfolio03 .bg {
@@ -612,6 +660,30 @@ body {
   border-radius: 40px;
   border: 3px solid #333;
 }
+
+.portfolio03 .desc_table td span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background:#81d8d0 ;
+  border-radius: 50%;
+}
+.portfolio03 .desc_table td .col01 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background:#ddd ;
+  border-radius: 50%;
+}
+.portfolio03 .desc_table td .col02 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #fff ;
+  border-radius: 50%;
+  border: 1px solid #e7e7e7;
+}
+
 
 /*portfolio04  */
 
@@ -670,6 +742,29 @@ body {
   border: 3px solid #333;
 }
 
+.portfolio04 .desc_table td span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background:#202124 ;
+  border-radius: 50%;
+}
+.portfolio04 .desc_table td .col01 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background:#dab49d ;
+  border-radius: 50%;
+}
+.portfolio04 .desc_table td .col02 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #fff ;
+  border-radius: 50%;
+  border: 1px solid #e7e7e7;
+}
+
 /* portfolio05 */
 
 .portfolio05 .bg {
@@ -702,6 +797,23 @@ body {
   background: url(../images/pf05.jpg) no-repeat left top/cover;
   border-radius: 40px;
   border: 3px solid #333;
+}
+
+.portfolio05 .desc_table td span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background:#000 ;
+  border-radius: 50%;
+}
+
+.portfolio05 .desc_table td .col02 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #fff ;
+  border-radius: 50%;
+  border: 1px solid #e7e7e7;
 }
 
 /* tab_link */
